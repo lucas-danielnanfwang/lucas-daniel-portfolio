@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas Daniel Nanfwang - Full Stack Software Engineer</title>
+    <style>
+        /* Global Styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        h1, h2, h3, p {
+            margin-bottom: 10px;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        /* Navbar Styling */
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #34495e;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #1abc9c;
+        }
+
+        /* Main Content Area */
+        .container {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        /* Section Styling */
+        section {
+            margin-bottom: 50px;
+        }
+
+        section h2 {
+            text-align: center;
+            font-size: 28px;
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+
+        /* About Me Section */
+        .about-me {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .about-me img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-bottom: 20px;
+        }
+
+        .about-me p {
+            font-size: 18px;
+            line-height: 1.6;
+            max-width: 900px;
+        }
+
+        /* Skills Section */
+        .skills {
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            gap: 30px;
+            padding: 20px;
+        }
+
+        .skill {
+            background-color: #ecf0f1;
+            padding: 20px;
+            text-align: center;
+            width: 250px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .skill h3 {
+            font-size: 24px;
+            color: #34495e;
+            margin-bottom: 10px;
+        }
+
+        .skill p {
+            font-size: 16px;
+        }
+
+        /* Education Section */
+        .education {
+            background-color: #ecf0f1;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .education p {
+            font-size: 18px;
+        }
+
+        /* Contact Section */
+        .contact {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .contact a {
+            background-color: #2c3e50;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .contact a:hover {
+            background-color: #1abc9c;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer p {
+            font-size: 16px;
+        }
+
+        /* Media Queries for Responsive Design */
+        @media (max-width: 768px) {
+            .skills {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .skill {
+                width: 100%;
+                max-width: 400px;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header Section -->
+<header>
+    <h1>Lucas Daniel Nanfwang</h1>
+    <p>Full Stack Software Engineering Student at Veritas University Abuja</p>
+</header>
+
+<!-- Navigation Bar -->
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#skills">Skills</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<!-- Main Content -->
+<div class="container">
+    <!-- About Me Section -->
+    <section id="about" class="about-me">
+        <img src="https://via.placeholder.com/150" alt="Lucas Daniel Nanfwang">
+        <h2>About Me</h2>
+        <p>
+            Hi, I'm Lucas Daniel Nanfwang, a passionate Full Stack Software Engineering student at Veritas University, Abuja. 
+            I am passionate about creating impactful web applications, with experience in both front-end and back-end technologies. 
+            I am always eager to learn new technologies and improve my skill set to contribute to building scalable and efficient solutions.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="skill">
+                <h3>Front-End</h3>
+                <p>HTML, CSS, JavaScript, React, Angular</p>
+            </div>
+            <div class="skill">
+                <h3>Back-End</h3>
+                <p>Node.js, Express, Python, Django, Java</p>
+            </div>
+            <div class="skill">
+                <h3>Databases</h3>
+                <p>MongoDB, MySQL, PostgreSQL</p>
+            </div>
+            <div class="skill">
+                <h3>Version Control</h3>
+                <p>Git, GitHub, GitLab</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education">
+            <p><strong>Veritas University, Abuja</strong> - B.Sc in Software Engineering (Expected Graduation: 2028)</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <a href="mailto:lucasdaniel@example.com">Email Me</a>
+        <a href="githubto:lucasdaniel@example.com">GitHub</a>
+    </section>
+</div>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2025 Lucas Daniel Nanfwang. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
